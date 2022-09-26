@@ -1,8 +1,21 @@
+/* 
+-------------------
+Global styles reset
+-------------------
+ */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+/* 
+---------
+Container
+---------
+
+ */
 
 .container {
   height: auto;
@@ -13,6 +26,12 @@
   flex-direction: column;
   align-items: center;
 }
+
+/*
+--------------
+Section/header
+--------------
+ */
 
 header,
 section {
@@ -38,12 +57,24 @@ header {
   font-size: 18px;
 }
 
+/*
+----------
+Image grid
+----------
+ */
+
 .img-grid {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   max-width: 1280px;
 }
+
+/*
+----------
+Image card
+----------
+ */
 
 .img-card {
   height: 283px;
@@ -69,6 +100,12 @@ header {
   margin-bottom: 50px;
 }
 
+/*
+------
+Footer
+------
+ */
+
 footer {
   width: 100%;
   height: 100px;
@@ -84,6 +121,12 @@ footer > a {
   /* text-decoration: none; */
   color: black;
 }
+
+/*
+----------
+Media queries
+----------
+ */
 
 @media (min-width: 768px) {
   .img-card {
